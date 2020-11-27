@@ -1,0 +1,14 @@
+#titulo{
+font-family: cursive;
+font-size: 100px;
+}
+#principal{
+    background-color: brown;
+}
+#parrafo{
+    
+    display: inline-block;
+}
+.p{
+    text-align: right;
+}
