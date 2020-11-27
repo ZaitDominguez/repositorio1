@@ -1,9 +1,29 @@
+* {
+    background-color: rgb(253, 253, 174);
+    margin:0px;
+    padding:0px;
+}
+
+#header {
+    margin:auto;
+    width:800px;
+    font-family:Arial, Helvetica, sans-serif;
+    border-radius; 30px;
+    
+
+    }
+
 #titulo{
 font-family: cursive;
-font-size: 100px;
+font-size: 50px;
+color: rgb(57, 75, 236);
+}
+#logo{
+    float: left;
 }
 #principal{
-    background-color: brown;
+    background-color: rgb(43, 9, 122);
+    text-align: center;
 }
 #parrafo{
     
@@ -11,4 +31,8 @@ font-size: 100px;
 }
 .p{
     text-align: right;
+}
+#vivo{
+    background-color: red;
+    color: snow;
 }
