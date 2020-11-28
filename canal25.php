@@ -14,7 +14,7 @@ if($varsession == null || $varsession = '') {
  <head>
      <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>Document</title>
+     <title>LOS MEJORES CANALES EN VIVO</title>
      <link rel="stylesheet" href="css/bootstrap.css">
      <link rel="stylesheet" href="css/canal25.css">
  </head>
@@ -95,8 +95,7 @@ if($varsession == null || $varsession = '') {
             </div>      
 
             <div class="col-3 mt-4">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, architecto deserunt? Officiis, dolor voluptas libero alias ipsam eveniet ipsa corporis maiores, numquam, velit mollitia nemo quos fugiat animi cum consequuntur!
-
+            Canal 25 está localizado en Santiago, República Dominicana. La Compañía está trabajando en Cine, Television y Video actividades de negocios.
             </div>
         </div>
     </div>
