@@ -1,5 +1,16 @@
+<?php
+session_start();
+$varsession = $_SESSION['email'];
+error_reporting(0);
+if($varsession == null || $varsession = '') {
+    echo'usted no tiene permisos para esta accion';
+    die();
+}
+
+?>
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -31,7 +42,7 @@
 
 
 		<li class="first-item">
-			<a href="index.html">
+			<a href="index.php">
 				<img src="img/home.jpg" alt="" class="imagen">
 				<span class="text-item">Inicio</span>
 				<span class="down-item"></span>
@@ -39,7 +50,7 @@
 		</li>
 
 		<li>
-			<a href="canales_nacionales.html">
+			<a href="canales_nacionales.php">
 				<img src="img/canales_nacionales.jpg" alt="" class="imagen">
 				<span class="text-item">Nacionales</span>
 				<span class="down-item"></span>
@@ -47,7 +58,7 @@
 		</li>
 
 		<li>
-			<a href="canales_locales.html">
+			<a href="canales_locales.php">
 				<img src="img/canales_locales.jpg" alt="" class="imagen">
 				<span class="text-item">Locales</span>
 				<span class="down-item"></span>
@@ -55,7 +66,7 @@
 		</li>
 
 		<li>
-			<a href="radio.html">
+			<a href="radio.php">
 				<img src="img/Radio.jpg" alt="" class="imagen">
 				<span class="text-item">Radio</span>
 				<span class="down-item"></span>

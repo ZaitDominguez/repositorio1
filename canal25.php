@@ -1,19 +1,28 @@
+<?php
+session_start();
+$varsession = $_SESSION['email'];
+error_reporting(0);
+if($varsession == null || $varsession = '') {
+    echo'usted no tiene permisos para esta accion';
+    die();
+}
+
+?>
+
 <!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LOS MEJORES CANALES EN VIVO</title>
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/estilos_menu.css">
-     <link rel="stylesheet" href="css/canal 19.css">
+ <html lang="es">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+     <link rel="stylesheet" href="css/bootstrap.css">
+     <link rel="stylesheet" href="css/canal25.css">
+ </head>
+ <body>
 
-</head>
-<body>
 
-    
     <section class="title" class="logotipo">
-        <h1>canal de Cinevision</h1>
+        <h1>Los mejores canales en vivo</h1>
     </section>
 
    
@@ -24,7 +33,7 @@
 
 
             <li class="first-item">
-                <a href="index.html">
+                <a href="index.php">
                     <img src="img/home.jpg" alt="" class="imagen">
                     <span class="text-item">Inicio</span>
                     <span class="down-item"></span>
@@ -32,7 +41,7 @@
             </li>
 
             <li>
-                <a href="canales_nacionales.html">
+                <a href="canales_nacionales.php">
                     <img src="img/canales_nacionales.jpg" alt="" class="imagen">
                     <span class="text-item">Nacionales</span>
                     <span class="down-item"></span>
@@ -40,7 +49,7 @@
             </li>
 
             <li>
-                <a href="canales_locales.html">
+                <a href="canales_locales.php">
                     <img src="img/canales_locales.jpg" alt="" class="imagen">
                     <span class="text-item">Locales</span>
                     <span class="down-item"></span>
@@ -48,7 +57,7 @@
             </li>
 
             <li>
-                <a href="radio.html">
+                <a href="radio.php">
                     <img src="img/Radio.jpg" alt="" class="imagen">
                     <span class="text-item">Radio</span>
                     <span class="down-item"></span>
@@ -66,27 +75,33 @@
         </ul>
     </nav>
 
-   <center><img src="img/canal 19.jpg" alt=""></center>
 
-    <div class="container">
-        <div class="row">
-            <div class="col-8">
 
-                <iframe src="https://canalesdominicanosenvivo.com/asset/play/rep.php?id=197&fbclid=IwAR1u6U-fB1DbPBSbE2oYEsaxvTxbnoMmXrgugnDZXdIay42ps4AlMgGNmfs" frameborder="0" height="500" width="600" allowfullscreen></iframe>
-
+     
+    <div class="container"> 
+        <div class="row"> 
+            <div class="col-12">
+                <center><img src="img/canal25.png" alt=""></center>
             </div>
-
-            <div class="col-4">
-<p id="parrafo">Cinevision 19 es un canal de TV de la República Dominicana, que ofrece una programación con producciones propias, que incluye informativos y periodísticos, además de música y entretenimiento. Algunos programas: Kcolmado, Registro Informativo, A Ritmo, Tiempo de impacto.</p>
-            </div>
-
+                 
         </div>
     </div>
 
-<script src="js/jquery-3.4.1.min -.js"></script>
-<script src="js/bootstrap.bundle.js"></script>
-<script src="js/popper.min.js"></script>
+    <div class="container">
+        <div class="row">
+            <div class="col-9 mt-4">
+                <iframe src="https://canalesdominicanosenvivo.com/asset/play/rep.php?id=140" frameborder="0" height="500" width="600"  allowfullscreen ></iframe>
+               
+            </div>      
 
+            <div class="col-3 mt-4">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, architecto deserunt? Officiis, dolor voluptas libero alias ipsam eveniet ipsa corporis maiores, numquam, velit mollitia nemo quos fugiat animi cum consequuntur!
 
-</body>
-</html>
+            </div>
+        </div>
+    </div>
+
+                   
+
+ </body>
+ </html>
