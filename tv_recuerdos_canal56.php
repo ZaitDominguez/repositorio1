@@ -10,23 +10,23 @@ if($varsession == null || $varsession = '') {
 ?>
 
 <!DOCTYPE html>
- <html lang="es">
- <head>
-     <meta charset="UTF-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>LOS MEJORES CANALES EN VIVO</title>
-     <link rel="stylesheet" href="css/bootstrap.css">
-     <link rel="stylesheet" href="css/canal25.css">
- </head>
- <body>
-
-
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/estilos_menu.css">
+    <link rel="stylesheet" href="css/styleE.css">
+    <title>Los mejores canales en vivo</title>
+</head>
+<body>
+    
     <section class="title" class="logotipo">
-        <h1>Los mejores canales en vivo</h1>
+        <h1>Tv recuerdos canal56</h1>
     </section>
 
    
-
 
     <nav class="navegacion">
         <ul class="menu" >
@@ -74,33 +74,52 @@ if($varsession == null || $varsession = '') {
 
         </ul>
     </nav>
-
-
-
-     
-    <div class="container"> 
-        <div class="row"> 
-            <div class="col-12">
-                <center><img src="img/canal25.png" alt=""></center>
-            </div>
-                 
-        </div>
-    </div>
+    
+    <br>
+    <br>
+    <br>
+    <hr>
 
     <div class="container">
         <div class="row">
-            <div class="col-9 mt-4">
-                <iframe src="https://canalesdominicanosenvivo.com/asset/play/rep.php?id=140" frameborder="0" height="500" width="600"  allowfullscreen ></iframe>
-               
-            </div>      
 
-            <div class="col-3 mt-4">
-            Canal 25 está localizado en Santiago, República Dominicana. La Compañía está trabajando en Cine, Television y Video actividades de negocios.
+            <div class="container">
+                <div class="row">
+                    <div class="col-8">
+
+                       <center><img src="img/tv_recuerdos_canal_56_santo_domingo.jpg" alt="" width="400" height="170"></center> 
+
+                       <div class="embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://canalesdominicanosenvivo.com/asset/play/rep.php?id=127" allowfullscreen height="500" width="700" frameborder="0"></iframe>                
+                        
+                       
+                    </div>
+
+                    <div class="col-4">
+
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <p id="parrafo"></p>
+
+                    </div>
+
+                </div>
             </div>
+            
         </div>
     </div>
+        
 
-                   
 
- </body>
- </html>
+            <script src="js/bootstrap.bundle.min.js"></script>
+            <script src="js/jquery-3.4.1.min.js"></script>
+            <script src="js/popper.min.js"></script>
+            
+
+</body>
+</html>

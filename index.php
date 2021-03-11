@@ -121,7 +121,41 @@ if($varsession == null || $varsession = '') {
 
         </div>
 
-       
+            <div class="card-deck mb-3 text-center" id="contenido">
+            
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-body">
+                        <img src="imagenes_de_los_canales/rnn_canal27.png" class="card-img-top" height="200">
+                        <a href="rnn_canal27.html" class="btn btn-block btn-primary">Ver</a>
+                    </div>
+                </div>
+    
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-body">
+                        <img src="imagenes_de_los_canales/supertv55santiago.png" class="card-img-top" height="200">
+                        <a href="supertv55santiago.html" class="btn btn-block btn-primary">Ver</a>
+                    </div>
+                </div>
+    
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-body">
+                        <img src="imagenes_de_los_canales/tv_recuerdos_canal_56_santo_domingo.jpg" class="card-img-top" height="200">
+                        <a href="tv_recuerdos_canal56.php" class="btn btn-block btn-primary">Ver</a>
+                    </div>
+                </div>
+    
+                <div class="card mb-4 shadow-sm">
+                    <div class="card-body">
+                        <img src="imagenes_de_los_canales/" class="card-img-top" height="200">
+                        <a href="" class="btn btn-block btn-primary">Ver</a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+</div>
 
         <script src="js/popup.js"></script>
         <script src="js/bootstrap.bundle.min.js"></script>
