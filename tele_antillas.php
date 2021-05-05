@@ -89,10 +89,10 @@ if($varsession == null || $varsession = '') {
                 <div class="row">
                     <div class="col-8">
 
-                        <h2 id="titulo">Tele antillas</h2>
+                    <center><img src="img/teleantillas.png" alt=""></center> 
         
                         <div class="embed-responsive-16by9">
-                            <iframe class="embed-responsive-item" src="https://canalesdominicanosenvivo.com/asset/play/rep.php?id=147" allowfullscreen height="500" width="700"></iframe>
+                            <iframe class="embed-responsive-item" src="https://canalesdominicanosenvivo.com/asset/play/rep.php?id=147" allowfullscreen height="500" width="700" frameborder="0"></iframe>
                           </div>
 
 
@@ -100,6 +100,11 @@ if($varsession == null || $varsession = '') {
 
                     <div class="col-4">
 
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
                         <br>
                         <br>
 

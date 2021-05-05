@@ -1,3 +1,14 @@
+<?php
+session_start();
+$varsession = $_SESSION['email'];
+error_reporting(0);
+if($varsession == null || $varsession = '') {
+    echo'usted no tiene permisos para esta accion';
+    die();
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -12,7 +23,7 @@
 <body>
     
     <section class="title" class="logotipo">
-        <h1>Canal de tele antillas</h1>
+        <h1>Rnn canal27</h1>
     </section>
 
    
@@ -23,7 +34,7 @@
 
 
             <li class="first-item">
-                <a href="index.html">
+                <a href="index.php">
                     <img src="img/home.jpg" alt="" class="imagen">
                     <span class="text-item">Inicio</span>
                     <span class="down-item"></span>
@@ -31,7 +42,7 @@
             </li>
 
             <li>
-                <a href="canales_nacionales.html">
+                <a href="canales_nacionales.php">
                     <img src="img/canales_nacionales.jpg" alt="" class="imagen">
                     <span class="text-item">Nacionales</span>
                     <span class="down-item"></span>
@@ -39,7 +50,7 @@
             </li>
 
             <li>
-                <a href="canales_locales.html">
+                <a href="canales_locales.php">
                     <img src="img/canales_locales.jpg" alt="" class="imagen">
                     <span class="text-item">Locales</span>
                     <span class="down-item"></span>
@@ -47,7 +58,7 @@
             </li>
 
             <li>
-                <a href="radio.html">
+                <a href="radio.php">
                     <img src="img/Radio.jpg" alt="" class="imagen">
                     <span class="text-item">Radio</span>
                     <span class="down-item"></span>
@@ -77,12 +88,12 @@
                 <div class="row">
                     <div class="col-8">
 
-                       <center><img src="img/teleantillas.png" alt=""></center> 
-        
-                        <div class="embed-responsive-16by9">
-                            <iframe class="embed-responsive-item" src="https://canalesdominicanosenvivo.com/asset/play/rep.php?id=147" allowfullscreen height="500" width="700" frameborder="0"></iframe>
+                       <center><img src="img/rnn_canal27.png" alt="" width="400" height="170"></center> 
 
-
+                       <div class="embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://canalesdominicanosenvivo.com/asset/play/rep.php?id=214" allowfullscreen height="500" width="700" frameborder="0"></iframe>                
+                        
+                       
                     </div>
 
                     <div class="col-4">
@@ -94,7 +105,7 @@
                         <br>
                         <br>
                         <br>
-                        <p id="parrafo">Tele Antillas es un canal de televisión abierta dominicano que transmite en todo el territorio nacional por el Canal 2. Es también el canal oficial para la Transmisión de eventos como los Premios Oscar, el Festival Viña del Mar, los Billboard Latin Music Awards, los Emmy, y los Premios Tu Mundo.</p>
+                        <p id="parrafo"></p>
 
                     </div>
 
